@@ -1,17 +1,31 @@
 # Projet @home - CT_01
 
-Run:
+Requirements:
+
+- [NodeJS](https://nodejs.org/en/)
+
+Install:
 
 ```
 npm install
-npm run build
+```
+
+Run:
+
+```
 npm start
 ```
 
-Test (install required):
+Test:
 
 ```
 npm test
 ```
 
-Data used can be changed in `src/annonce.json`.
+Build:
+
+```
+npm run build
+```
+
+Data used can be changed in `src/annonce.json`. Building is required after changing data.
